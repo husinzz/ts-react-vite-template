@@ -2,7 +2,7 @@
   "name": "package",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "deploy": "yarn build && gh-pages -d dist"
@@ -16,6 +16,12 @@
     "@types/react": "^18.2.25",
     "@types/react-dom": "^18.2.10",
     "@vitejs/plugin-react": "^4.1.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitejs/plugin-react-swc": "^3.3.2",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
     "autoprefixer": "^10.4.16",
     "gh-pages": "^6.0.0",
     "postcss": "^8.4.31",
